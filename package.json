@@ -15,11 +15,15 @@
   },
   "packageManager": "pnpm@10.4.1",
   "dependencies": {
-    "re2": "^1.21.4"
+    "libpg-query": "13.3.2",
+    "re2": "1.20.12",
+    "unix-dgram": "2.0.6"
   },
   "pnpm": {
     "onlyBuiltDependencies": [
-      "re2"
+      "libpg-query",
+      "re2",
+      "unix-dgram"
     ]
   }
 }
